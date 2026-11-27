@@ -1,0 +1,815 @@
+{
+  "namazlar": [
+    {
+      "id": "sabah",
+      "ad": "Sabah Namazı",
+      "okuma_sirasi": [
+        "subhaneke",
+        "euzu-besmele",
+        "fatiha",
+        "kevser",
+        "ruku-tesbihi",
+        "kavme",
+        "secde-tesbihi",
+        "ettehiyyatu",
+        "allahumme-salli",
+        "allahumme-barik",
+        "rabbena",
+        "selam"
+      ]
+    },
+    {
+      "id": "ogle",
+      "ad": "Öğle Namazı",
+      "okuma_sirasi": [
+        "subhaneke",
+        "euzu-besmele",
+        "fatiha",
+        "ihlas",
+        "ruku-tesbihi",
+        "kavme",
+        "secde-tesbihi",
+        "ettehiyyatu",
+        "allahumme-salli",
+        "allahumme-barik",
+        "rabbena",
+        "selam"
+      ]
+    },
+    {
+      "id": "ikindi",
+      "ad": "İkindi Namazı",
+      "okuma_sirasi": [
+        "subhaneke",
+        "euzu-besmele",
+        "fatiha",
+        "asr",
+        "ruku-tesbihi",
+        "kavme",
+        "secde-tesbihi",
+        "ettehiyyatu",
+        "allahumme-salli",
+        "allahumme-barik",
+        "rabbena",
+        "selam"
+      ]
+    },
+    {
+      "id": "aksam",
+      "ad": "Akşam Namazı",
+      "okuma_sirasi": [
+        "subhaneke",
+        "euzu-besmele",
+        "fatiha",
+        "fil",
+        "ruku-tesbihi",
+        "kavme",
+        "secde-tesbihi",
+        "ettehiyyatu",
+        "allahumme-salli",
+        "allahumme-barik",
+        "rabbena",
+        "selam"
+      ]
+    },
+    {
+      "id": "yatsi",
+      "ad": "Yatsı Namazı",
+      "okuma_sirasi": [
+        "subhaneke",
+        "euzu-besmele",
+        "fatiha",
+        "kureys",
+        "ruku-tesbihi",
+        "kavme",
+        "secde-tesbihi",
+        "ettehiyyatu",
+        "allahumme-salli",
+        "allahumme-barik",
+        "rabbena",
+        "selam"
+      ]
+    },
+    {
+      "id": "vitir",
+      "ad": "Vitir Namazı",
+      "okuma_sirasi": [
+        "subhaneke",
+        "euzu-besmele",
+        "fatiha",
+        "kureys",
+        "kunut-1",
+        "kunut-2",
+        "ruku-tesbihi",
+        "kavme",
+        "secde-tesbihi",
+        "ettehiyyatu",
+        "allahumme-salli",
+        "allahumme-barik",
+        "rabbena",
+        "selam"
+      ]
+    }
+  ],
+  "dualar_detay": {
+    "subhaneke": {
+      "ad": "Sübhaneke Duası",
+      "tur": "dua",
+      "aciklama": "İftitah tekbirinden sonra, yalnızca ilk rekatta okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ",
+          "okunus": "Sübhânekellâhümme ve bihamdik",
+          "meal": "Allah'ım! Seni her türlü eksiklikten tenzih eder, hamdinle överim."
+        },
+        {
+          "no": 2,
+          "arapca": "وَتَبَارَكَ اسْمُكَ",
+          "okunus": "Ve tebârakesmük",
+          "meal": "Senin adın mübarektir."
+        },
+        {
+          "no": 3,
+          "arapca": "وَتَعَالَىٰ جَدُّكَ",
+          "okunus": "Ve teâlâ ceddük",
+          "meal": "Şanın yücedir."
+        },
+        {
+          "no": 4,
+          "arapca": "وَلَا إِلَٰهَ غَيْرُكَ",
+          "okunus": "Ve lâ ilâhe ğayruk",
+          "meal": "Senden başka ilah yoktur."
+        }
+      ]
+    },
+    "fatiha": {
+      "ad": "Fâtiha Suresi",
+      "tur": "sure",
+      "aciklama": "Her rekatın kıyamında okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+          "okunus": "Bismillâhir rahmânir rahîm",
+          "meal": "Rahmân ve Rahîm olan Allah'ın adıyla."
+        },
+        {
+          "no": 2,
+          "arapca": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+          "okunus": "Elhamdü lillâhi rabbil âlemîn",
+          "meal": "Hamd, âlemlerin Rabbi Allah'a mahsustur."
+        },
+        {
+          "no": 3,
+          "arapca": "الرَّحْمَٰنِ الرَّحِيمِ",
+          "okunus": "Errahmânir rahîm",
+          "meal": "O, Rahmân'dır, Rahîm'dir."
+        },
+        {
+          "no": 4,
+          "arapca": "مَالِكِ يَوْمِ الدِّينِ",
+          "okunus": "Mâliki yevmid dîn",
+          "meal": "Din (hesap) gününün sahibidir."
+        },
+        {
+          "no": 5,
+          "arapca": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "okunus": "İyyâke na'büdü ve iyyâke neste'în",
+          "meal": "(Allah'ım!) Yalnız sana kulluk eder, yalnız senden yardım dileriz."
+        },
+        {
+          "no": 6,
+          "arapca": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+          "okunus": "İhdinas sırâtal müstakîm",
+          "meal": "Bizi doğru yola ilet."
+        },
+        {
+          "no": 7,
+          "arapca": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+          "okunus": "Sırâtallezîne en'amte aleyhim ğayril mağdûbi aleyhim veled dâllîn",
+          "meal": "Kendilerine nimet verdiklerinin yoluna; gazaba uğramışların ve sapmışların yoluna değil."
+        }
+      ]
+    },
+    "ruku-tesbihi": {
+      "ad": "Rükû Tesbihi",
+      "tur": "dua",
+      "aciklama": "Rükûda en az 3 kez okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+          "okunus": "Sübhâne rabbiyel azîm",
+          "meal": "Yüce Rabbimi her türlü eksiklikten tenzih ederim."
+        }
+      ]
+    },
+    "secde-tesbihi": {
+      "ad": "Secde Tesbihi",
+      "tur": "dua",
+      "aciklama": "Her secdede en az 3 kez okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "سُبْحَانَ رَبِّيَ الْأَعْلَىٰ",
+          "okunus": "Sübhâne rabbiyel a'lâ",
+          "meal": "En yüce olan Rabbimi her türlü eksiklikten tenzih ederim."
+        }
+      ]
+    },
+    "ettehiyyatu": {
+      "ad": "Ettehiyyâtü",
+      "tur": "dua",
+      "aciklama": "Her oturuşta okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "اَلتَّحِيَّاتُ لِلّٰهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ",
+          "okunus": "Ettehiyyâtü lillâhi ves-salevâtü vet-tayyibât",
+          "meal": "Dil, beden ve mal ile yapılan bütün ibadetler Allah'a mahsustur."
+        },
+        {
+          "no": 2,
+          "arapca": "اَلسَّلَامُ عَلَيْكَ اَيُّهَا النَّبِيُّ وَرَحْمَةُ اللّٰهِ وَبَرَكَاتُهُ",
+          "okunus": "Esselâmü aleyke eyyühen-nebiyyü ve rahmetullâhi ve berekâtüh",
+          "meal": "Ey Peygamber! Selam, Allah'ın rahmeti ve bereketi senin üzerine olsun."
+        },
+        {
+          "no": 3,
+          "arapca": "اَلسَّلَامُ عَلَيْنَا وَعَلٰى عِبَادِ اللّٰهِ الصَّالِحِينَ",
+          "okunus": "Esselâmü aleynâ ve alâ ibâdillâhis-sâlihîn",
+          "meal": "Selam bizim ve Allah'ın bütün salih kullarının üzerine olsun."
+        },
+        {
+          "no": 4,
+          "arapca": "اَشْهَدُ اَنْ لَا اِلٰهَ اِلَّا اللّٰهُ",
+          "okunus": "Eşhedü en lâ ilâhe illallâh",
+          "meal": "Şahitlik ederim ki Allah'tan başka ilah yoktur."
+        },
+        {
+          "no": 5,
+          "arapca": "وَاَشْهَدُ اَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+          "okunus": "Ve eşhedü enne Muhammeden abdühû ve resûlüh",
+          "meal": "Yine şahitlik ederim ki Muhammed O'nun kulu ve elçisidir."
+        }
+      ]
+    },
+    "allahumme-salli": {
+      "ad": "Allâhümme Salli",
+      "tur": "dua",
+      "aciklama": "Son oturuşta Ettehiyyâtü'den sonra okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "اَللّٰهُمَّ صَلِّ عَلٰى سَيِّدِنَا مُحَمَّدٍ وَعَلٰى اٰلِ سَيِّدِنَا مُحَمَّدٍ",
+          "okunus": "Allâhümme salli alâ seyyidinâ Muhammedin ve alâ âli seyyidinâ Muhammed",
+          "meal": "Allah'ım! Efendimiz Muhammed'e ve âline rahmet eyle."
+        },
+        {
+          "no": 2,
+          "arapca": "كَمَا صَلَّيْتَ عَلٰى سَيِّدِنَا اِبْرَاهِيمَ وَعَلٰى اٰلِ سَيِّدِنَا اِبْرَاهِيمَ",
+          "okunus": "Kemâ sallayte alâ seyyidinâ İbrâhîme ve alâ âli seyyidinâ İbrâhîm",
+          "meal": "İbrahim'e ve İbrahim'in âline rahmet ettiğin gibi."
+        },
+        {
+          "no": 3,
+          "arapca": "اِنَّكَ حَمِيدٌ مَجِيدٌ",
+          "okunus": "İnneke hamîdün mecîd",
+          "meal": "Şüphesiz sen övülmeye layıksın, şanı yücesin."
+        }
+      ]
+    },
+    "allahumme-barik": {
+      "ad": "Allâhümme Bârik",
+      "tur": "dua",
+      "aciklama": "Son oturuşta Allâhümme Salli'den sonra okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "اَللّٰهُمَّ بَارِكْ عَلٰى سَيِّدِنَا مُحَمَّدٍ وَعَلٰى اٰلِ سَيِّدِنَا مُحَمَّدٍ",
+          "okunus": "Allâhümme bârik alâ seyyidinâ Muhammedin ve alâ âli seyyidinâ Muhammed",
+          "meal": "Allah'ım! Efendimiz Muhammed'e ve âline bereket ver."
+        },
+        {
+          "no": 2,
+          "arapca": "كَمَا بَارَكْتَ عَلٰى سَيِّدِنَا اِبْرَاهِيمَ وَعَلٰى اٰلِ سَيِّدِنَا اِبْرَاهِيمَ",
+          "okunus": "Kemâ bârekte alâ seyyidinâ İbrâhîme ve alâ âli seyyidinâ İbrâhîm",
+          "meal": "İbrahim'e ve İbrahim'in âline bereket verdiğin gibi."
+        },
+        {
+          "no": 3,
+          "arapca": "اِنَّكَ حَمِيدٌ مَجِيدٌ",
+          "okunus": "İnneke hamîdün mecîd",
+          "meal": "Şüphesiz sen övülmeye layıksın, şanı yücesin."
+        }
+      ]
+    },
+    "rabbena": {
+      "ad": "Rabbenâ Duaları",
+      "tur": "dua",
+      "aciklama": "Son oturuşta Allâhümme Bârik'ten sonra okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "رَبَّنَا اٰتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْاٰخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "okunus": "Rabbenâ âtinâ fid-dünyâ haseneten ve fil-âhirati haseneten ve kınâ azâben-nâr",
+          "meal": "Rabbimiz! Bize dünyada da iyilik ver, ahirette de iyilik ver; bizi ateş azabından koru."
+        },
+        {
+          "no": 2,
+          "arapca": "رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الْحِسَابُ",
+          "okunus": "Rabbenâğfir lî ve li vâlideyye ve lil mü'minîne yevme yekûmül hisâb",
+          "meal": "Rabbimiz! Hesabın görüleceği gün beni, anne babamı ve bütün müminleri bağışla."
+        }
+      ]
+    },
+    "euzu-besmele": {
+      "ad": "Eûzü - Besmele",
+      "tur": "dua",
+      "aciklama": "Fâtiha'dan önce okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+          "okunus": "Eûzü billâhi mineş şeytânir racîm",
+          "meal": "Kovulmuş şeytanın şerrinden Allah'a sığınırım."
+        },
+        {
+          "no": 2,
+          "arapca": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+          "okunus": "Bismillâhir rahmânir rahîm",
+          "meal": "Rahmân ve Rahîm olan Allah'ın adıyla."
+        }
+      ]
+    },
+    "kevser": {
+      "ad": "Kevser Suresi",
+      "tur": "sure",
+      "aciklama": "3 ayet.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
+          "okunus": "İnnâ a'taynâkel kevser",
+          "meal": "Şüphesiz biz sana Kevser'i verdik."
+        },
+        {
+          "no": 2,
+          "arapca": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
+          "okunus": "Fesalli li rabbike venhar",
+          "meal": "O halde Rabbin için namaz kıl ve kurban kes."
+        },
+        {
+          "no": 3,
+          "arapca": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+          "okunus": "İnne şânieke hüvel ebter",
+          "meal": "Asıl soyu kesik olan, sana kin besleyendir."
+        }
+      ]
+    },
+    "ihlas": {
+      "ad": "İhlâs Suresi",
+      "tur": "sure",
+      "aciklama": "4 ayet.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+          "okunus": "Kul hüvallâhü ehad",
+          "meal": "De ki: O, Allah'tır, bir tektir."
+        },
+        {
+          "no": 2,
+          "arapca": "اللَّهُ الصَّمَدُ",
+          "okunus": "Allâhüs samed",
+          "meal": "Allah Samed'dir (her şey O'na muhtaçtır, O hiçbir şeye muhtaç değildir)."
+        },
+        {
+          "no": 3,
+          "arapca": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "okunus": "Lem yelid ve lem yûled",
+          "meal": "O doğurmamış ve doğurulmamıştır."
+        },
+        {
+          "no": 4,
+          "arapca": "وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
+          "okunus": "Ve lem yekün lehû küfüven ehad",
+          "meal": "Hiçbir şey O'na denk değildir."
+        }
+      ]
+    },
+    "asr": {
+      "ad": "Asr Suresi",
+      "tur": "sure",
+      "aciklama": "3 ayet.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "وَالْعَصْرِ",
+          "okunus": "Vel asr",
+          "meal": "Asra yemin olsun ki,"
+        },
+        {
+          "no": 2,
+          "arapca": "إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ",
+          "okunus": "İnnel insâne le fî husr",
+          "meal": "insan gerçekten ziyandadır."
+        },
+        {
+          "no": 3,
+          "arapca": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+          "okunus": "İllellezîne âmenû ve amilüs sâlihâti ve tevâsav bil hakkı ve tevâsav bis sabr",
+          "meal": "Ancak iman edip salih ameller işleyenler, birbirlerine hakkı ve sabrı tavsiye edenler müstesnadır."
+        }
+      ]
+    },
+    "fil": {
+      "ad": "Fîl Suresi",
+      "tur": "sure",
+      "aciklama": "5 ayet.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ",
+          "okunus": "Elem tera keyfe feale rabbüke bi ashâbil fîl",
+          "meal": "Rabbinin fil sahiplerine ne yaptığını görmedin mi?"
+        },
+        {
+          "no": 2,
+          "arapca": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ",
+          "okunus": "Elem yec'al keydehüm fî tadlîl",
+          "meal": "Onların tuzaklarını boşa çıkarmadı mı?"
+        },
+        {
+          "no": 3,
+          "arapca": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+          "okunus": "Ve ersele aleyhim tayran ebâbîl",
+          "meal": "Üzerlerine sürü sürü kuşlar gönderdi."
+        },
+        {
+          "no": 4,
+          "arapca": "تَرْمِيهِمْ بِحِجَارَةٍ مِنْ سِجِّيلٍ",
+          "okunus": "Termîhim bi hıcâratin min siccîl",
+          "meal": "Onlara pişmiş çamurdan taşlar atıyorlardı."
+        },
+        {
+          "no": 5,
+          "arapca": "فَجَعَلَهُمْ كَعَصْفٍ مَأْكُولٍ",
+          "okunus": "Fece'alehüm ke asfin me'kûl",
+          "meal": "Böylece onları yenilmiş ekin yaprağı gibi yaptı."
+        }
+      ]
+    },
+    "kureys": {
+      "ad": "Kureyş Suresi",
+      "tur": "sure",
+      "aciklama": "4 ayet.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "لِإِيلَافِ قُرَيْشٍ",
+          "okunus": "Li îlâfi kureyş",
+          "meal": "Kureyş'in alıştırılması için,"
+        },
+        {
+          "no": 2,
+          "arapca": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
+          "okunus": "Îlâfihim rıhleteş şitâi ves sayf",
+          "meal": "onların kış ve yaz yolculuklarına alıştırılması için,"
+        },
+        {
+          "no": 3,
+          "arapca": "فَلْيَعْبُدُوا رَبَّ هَذَا الْبَيْتِ",
+          "okunus": "Felya'büdû rabbe hâzel beyt",
+          "meal": "bu evin Rabbine kulluk etsinler."
+        },
+        {
+          "no": 4,
+          "arapca": "الَّذِي أَطْعَمَهُمْ مِنْ جُوعٍ وَآمَنَهُمْ مِنْ خَوْفٍ",
+          "okunus": "Ellezî et'amehüm min cû'in ve âmenehüm min havf",
+          "meal": "O ki onları açlıktan doyurdu ve korkudan emin kıldı."
+        }
+      ]
+    },
+    "kavme": {
+      "ad": "Semiallah · Rabbenâ Lekel Hamd",
+      "tur": "dua",
+      "aciklama": "Rükûdan doğrulurken okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ",
+          "okunus": "Semiallâhü limen hamideh",
+          "meal": "Allah, kendisine hamdedeni işitir."
+        },
+        {
+          "no": 2,
+          "arapca": "رَبَّنَا لَكَ الْحَمْدُ",
+          "okunus": "Rabbenâ lekel hamd",
+          "meal": "Rabbimiz! Hamd sanadır."
+        }
+      ]
+    },
+    "selam": {
+      "ad": "Selam",
+      "tur": "dua",
+      "aciklama": "Namazın sonunda önce sağa, sonra sola verilir.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+          "okunus": "Esselâmü aleyküm ve rahmetullâh",
+          "meal": "Allah'ın selamı ve rahmeti üzerinize olsun."
+        }
+      ]
+    },
+    "kunut-1": {
+      "ad": "Kunut Duası 1",
+      "tur": "dua",
+      "aciklama": "Vitir namazında, üçüncü rekatta zamm-ı sureden sonra okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "اَللَّهُمَّ إِنَّا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ وَنَسْتَهْدِيكَ",
+          "okunus": "Allâhümme innâ neste'înüke ve nestağfirüke ve nestehdîk",
+          "meal": "Allah'ım! Senden yardım, bağış ve hidayet dileriz."
+        },
+        {
+          "no": 2,
+          "arapca": "وَنُؤْمِنُ بِكَ وَنَتُوبُ إِلَيْكَ وَنَتَوَكَّلُ عَلَيْكَ",
+          "okunus": "Ve nü'minü bike ve netûbü ileyke ve netevekkelü aleyk",
+          "meal": "Sana inanır, sana tövbe eder ve sana güveniriz."
+        },
+        {
+          "no": 3,
+          "arapca": "وَنُثْنِي عَلَيْكَ الْخَيْرَ كُلَّهُ نَشْكُرُكَ وَلَا نَكْفُرُكَ",
+          "okunus": "Ve nüsnî aleykel hayra küllehû neşkürüke ve lâ nekfürük",
+          "meal": "Bütün hayırla seni överiz; sana şükreder, nankörlük etmeyiz."
+        },
+        {
+          "no": 4,
+          "arapca": "وَنَخْلَعُ وَنَتْرُكُ مَنْ يَفْجُرُكَ",
+          "okunus": "Ve nahleü ve netrükü men yefcürük",
+          "meal": "Sana isyan edenlerden uzaklaşır ve onları terk ederiz."
+        }
+      ]
+    },
+    "kunut-2": {
+      "ad": "Kunut Duası 2",
+      "tur": "dua",
+      "aciklama": "Kunut 1'den sonra okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "اَللَّهُمَّ إِيَّاكَ نَعْبُدُ وَلَكَ نُصَلِّي وَنَسْجُدُ",
+          "okunus": "Allâhümme iyyâke na'büdü ve leke nüsallî ve nescüd",
+          "meal": "Allah'ım! Yalnız sana kulluk eder, senin için namaz kılar ve secde ederiz."
+        },
+        {
+          "no": 2,
+          "arapca": "وَإِلَيْكَ نَسْعَىٰ وَنَحْفِدُ نَرْجُو رَحْمَتَكَ وَنَخْشَىٰ عَذَابَكَ",
+          "okunus": "Ve ileyke nes'â ve nahfid, nercû rahmeteke ve nahşâ azâbek",
+          "meal": "Sana koşar, hizmetinde bulunuruz; rahmetini umar, azabından korkarız."
+        },
+        {
+          "no": 3,
+          "arapca": "إِنَّ عَذَابَكَ بِالْكُفَّارِ مُلْحِقٌ",
+          "okunus": "İnne azâbeke bil küffâri mülhık",
+          "meal": "Şüphesiz senin azabın kâfirlere ulaşacaktır."
+        }
+      ]
+    },
+    "felak": {
+      "ad": "Felak Suresi",
+      "tur": "sure",
+      "aciklama": "5 ayet.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+          "okunus": "Kul eûzü bi rabbil felak",
+          "meal": "De ki: Sığınırım sabahın Rabbine,"
+        },
+        {
+          "no": 2,
+          "arapca": "مِنْ شَرِّ مَا خَلَقَ",
+          "okunus": "Min şerri mâ halak",
+          "meal": "yarattığı şeylerin şerrinden,"
+        },
+        {
+          "no": 3,
+          "arapca": "وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+          "okunus": "Ve min şerri gâsikın izâ vekab",
+          "meal": "karanlığı çöktüğü zaman gecenin şerrinden,"
+        },
+        {
+          "no": 4,
+          "arapca": "وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ",
+          "okunus": "Ve min şerrin neffâsâti fîl ukad",
+          "meal": "düğümlere üfleyenlerin şerrinden,"
+        },
+        {
+          "no": 5,
+          "arapca": "وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+          "okunus": "Ve min şerri hâsidin izâ hased",
+          "meal": "ve haset ettiği zaman hasetçinin şerrinden."
+        }
+      ]
+    },
+    "nas": {
+      "ad": "Nâs Suresi",
+      "tur": "sure",
+      "aciklama": "6 ayet.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
+          "okunus": "Kul eûzü bi rabbin nâs",
+          "meal": "De ki: Sığınırım insanların Rabbine,"
+        },
+        {
+          "no": 2,
+          "arapca": "مَلِكِ النَّاسِ",
+          "okunus": "Melikin nâs",
+          "meal": "insanların Melik'ine,"
+        },
+        {
+          "no": 3,
+          "arapca": "إِلَٰهِ النَّاسِ",
+          "okunus": "İlâhin nâs",
+          "meal": "insanların İlah'ına,"
+        },
+        {
+          "no": 4,
+          "arapca": "مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
+          "okunus": "Min şerril vesvâsil hannâs",
+          "meal": "sinsi vesvesecinin şerrinden;"
+        },
+        {
+          "no": 5,
+          "arapca": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
+          "okunus": "Ellezî yüvesvisü fî sudûrin nâs",
+          "meal": "o ki insanların gönüllerine vesvese verir,"
+        },
+        {
+          "no": 6,
+          "arapca": "مِنَ الْجِنَّةِ وَالنَّاسِ",
+          "okunus": "Minel cinneti ven nâs",
+          "meal": "cinlerden de insanlardan da."
+        }
+      ]
+    },
+    "ayetel-kursi": {
+      "ad": "Âyetü'l-Kürsî",
+      "tur": "dua",
+      "aciklama": "Bakara Suresi 255. ayet. Farz namazlardan sonra okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+          "okunus": "Allâhü lâ ilâhe illâ hüvel hayyül kayyûm",
+          "meal": "Allah, kendisinden başka ilah olmayandır; diridir, her şeyi ayakta tutandır."
+        },
+        {
+          "no": 2,
+          "arapca": "لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ",
+          "okunus": "Lâ te'huzühû sinetün ve lâ nevm",
+          "meal": "O'nu ne uyuklama tutar ne de uyku."
+        },
+        {
+          "no": 3,
+          "arapca": "لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ",
+          "okunus": "Lehû mâ fîs semâvâti ve mâ fîl ard",
+          "meal": "Göklerdeki ve yerdeki her şey O'nundur."
+        },
+        {
+          "no": 4,
+          "arapca": "مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ",
+          "okunus": "Men zellezî yeşfeu indehû illâ bi iznih",
+          "meal": "O'nun izni olmadan katında kim şefaat edebilir?"
+        },
+        {
+          "no": 5,
+          "arapca": "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ",
+          "okunus": "Ya'lemü mâ beyne eydîhim ve mâ halfehüm",
+          "meal": "O, kulların önlerindekini ve arkalarındakini bilir."
+        },
+        {
+          "no": 6,
+          "arapca": "وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ",
+          "okunus": "Ve lâ yühîtûne bi şey'in min ilmihî illâ bi mâ şâe",
+          "meal": "O'nun dilediğinden başka ilminden hiçbir şeyi kavrayamazlar."
+        },
+        {
+          "no": 7,
+          "arapca": "وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ وَلَا يَئُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+          "okunus": "Vesia kürsiyyühüs semâvâti vel ard, ve lâ yeûdühû hıfzuhümâ ve hüvel aliyyül azîm",
+          "meal": "O'nun kürsüsü gökleri ve yeri kuşatmıştır; onları korumak O'na ağır gelmez. O, çok yücedir, çok büyüktür."
+        }
+      ]
+    },
+    "allahumme-entes-selam": {
+      "ad": "Allâhümme Entesselâm",
+      "tur": "dua",
+      "aciklama": "Farz namazdan sonra, selamdan hemen sonra okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "اَللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ",
+          "okunus": "Allâhümme entes selâm ve minkes selâm",
+          "meal": "Allah'ım! Sen selamsın, selam sendendir."
+        },
+        {
+          "no": 2,
+          "arapca": "تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+          "okunus": "Tebârekte yâ zel celâli vel ikrâm",
+          "meal": "Ey celal ve ikram sahibi! Sen ne yücesin."
+        }
+      ]
+    },
+    "tesbihat": {
+      "ad": "Namaz Sonrası Tesbihat",
+      "tur": "dua",
+      "aciklama": "Her biri 33 kez okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "سُبْحَانَ اللَّهِ",
+          "okunus": "Sübhânallâh (33 kez)",
+          "meal": "Allah her türlü eksiklikten uzaktır."
+        },
+        {
+          "no": 2,
+          "arapca": "الْحَمْدُ لِلَّهِ",
+          "okunus": "Elhamdülillâh (33 kez)",
+          "meal": "Hamd Allah'a mahsustur."
+        },
+        {
+          "no": 3,
+          "arapca": "اللَّهُ أَكْبَرُ",
+          "okunus": "Allâhü ekber (33 kez)",
+          "meal": "Allah en büyüktür."
+        }
+      ]
+    },
+    "tevhid": {
+      "ad": "Tevhid (Lâ ilâhe illallâh)",
+      "tur": "dua",
+      "aciklama": "Tesbihattan sonra okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ",
+          "okunus": "Lâ ilâhe illallâhü vahdehû lâ şerîke leh",
+          "meal": "Allah'tan başka ilah yoktur; O tektir, ortağı yoktur."
+        },
+        {
+          "no": 2,
+          "arapca": "لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+          "okunus": "Lehül mülkü ve lehül hamdü yuhyî ve yümît ve hüve alâ külli şey'in kadîr",
+          "meal": "Mülk O'nundur, hamd O'nadır; diriltir ve öldürür, O her şeye kadirdir."
+        }
+      ]
+    },
+    "istigfar": {
+      "ad": "İstiğfar",
+      "tur": "dua",
+      "aciklama": "Namazdan sonra üç kez okunur.",
+      "ayetler": [
+        {
+          "no": 1,
+          "arapca": "أَسْتَغْفِرُ اللَّهَ",
+          "okunus": "Estağfirullâh (3 kez)",
+          "meal": "Allah'tan bağışlanma dilerim."
+        }
+      ]
+    }
+  },
+  "gruplar": [
+    {
+      "id": "namaz-sonrasi",
+      "ad": "Namaz Sonrası",
+      "okuma_sirasi": [
+        "allahumme-entes-selam",
+        "ayetel-kursi",
+        "tesbihat",
+        "tevhid",
+        "istigfar"
+      ]
+    },
+    {
+      "id": "diger",
+      "ad": "Diğer Sureler",
+      "okuma_sirasi": [
+        "felak",
+        "nas",
+        "kevser",
+        "ihlas",
+        "asr",
+        "fil",
+        "kureys"
+      ]
+    }
+  ]
+}
